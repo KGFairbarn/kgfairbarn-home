@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KG Fairbarn - Homelab</title>
+    <style>
+        body { 
+            font-family: system-ui, -apple-system, sans-serif; 
+            background: #1a1a1a; 
+            color: #ffffff; 
+            text-align: center; 
+            padding: 50px 20px; 
+        }
+        .grid { 
+            display: flex; 
+            gap: 20px; 
+            justify-content: center; 
+            flex-wrap: wrap; 
+            max-width: 800px;
+            margin: 40px auto; 
+        }
+        .card { 
+            background: #333333; 
+            padding: 25px; 
+            border-radius: 12px; 
+            text-decoration: none; 
+            color: white; 
+            width: 200px; 
+            transition: transform 0.2s, background 0.2s; 
+            border: 1px solid #444;
+        }
+        .card:hover { 
+            background: #404040; 
+            transform: translateY(-5px); 
+        }
+        h3 { margin-top: 0; color: #4dabf7; }
+        p { margin-bottom: 0; font-size: 0.9em; color: #cccccc; }
+    </style>
+</head>
+<body>
+    <h1>KG's Homelab</h1>
+    <p>Internal network services and dashboards.</p>
+    
+    <div class="grid">
+        <a href="https://birds.kgfairbarn.com" class="card">
+            <h3>BirdNET-Pi</h3>
+            <p>Avian Audio Monitoring</p>
+        </a>
+        <a href="#" class="card">
+            <h3>Home Assistant</h3>
+            <p>Smart Home Control</p>
+        </a>
+        <!-- Add more cards here by copying the <a> block -->
+    </div>
+</body>
+</html>
